@@ -1,3 +1,33 @@
-.app-container {
-  background-color: rgba(0, 0, 0, 0.436);
+.todo-home {
+  display: flex;
+  justify-content: center;
+
+  .app-container {
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 90%;
+    height: 80px;
+    margin-top: 40%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-radius: 10px;
+    .app-icon {
+      width: 170px;
+      height: 70px;
+      img {
+        size: 100%;
+      }
+    }
+  }
+
+  .todo-board {
+    width: 50px;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    position: absolute;
+    right: -10px;
+    bottom: 150px;
+  }
 }
