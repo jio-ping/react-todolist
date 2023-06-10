@@ -4,13 +4,15 @@ function TodoHome() {
   const { user } = useParams();
   return (
     <div className="todo-home">
+      <div className="user-profile">
+        <div className="user-photo">z</div>
+        <h3 className="user-name">{user}</h3>
+      </div>
       <div className="todo-board">
         <li></li>
       </div>
       <div className="app-container">
-        <div className="app-icon">
-          <img src="https://cdn.jim-nielsen.com/ios/512/photos-2022-09-26.png"></img>
-        </div>
+        <div className="app-icon"></div>
       </div>
     </div>
   );
